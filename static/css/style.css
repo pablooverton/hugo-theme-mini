@@ -532,3 +532,14 @@ nav.navigation a.button {
   top: 1px;
   color: #bbb;
 }
+
+figure {
+  max-width: 100%; /* Ensure it scales within its parent container */
+  margin: auto;   /* Center-align within the container */
+}
+
+figure img {
+  max-width: 680px; /* Limit the width */
+  height: auto; /* Keep the aspect ratio */
+  margin: auto;
+}
